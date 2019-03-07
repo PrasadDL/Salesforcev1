@@ -1,0 +1,10 @@
+<aura:component >
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="recordName" type="String"/>
+    
+	<a onclick="{!c.navigate}">
+        
+        {!v.recordName} 
+                </a>
+   
+</aura:component>
